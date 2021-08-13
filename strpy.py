@@ -1,7 +1,8 @@
 
 
-def append_string(string, append):
+def append_string(string: str, append: str):
     return f'{string}-{append}'
 
-new_string = append_string('init', 'append')
-print(new_string)
+
+if __name__ == "__main__":
+    new_string = append_string('init', 'append')
